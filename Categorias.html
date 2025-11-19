@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Categorias</title>
+
+    <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:url('Imagens/globo.png');
+    background-color: rgba(0,0,0,0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left left;
+    color:white;
+}
+
+header{
+    width:100%;
+    background:rgba(0,0,0,0.7);
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+}
+
+header h2{
+    font-weight:700;
+    font-size:22px;
+}
+
+header nav a{
+    color:white;
+    margin-left:25px;
+    font-size:17px;
+    text-decoration:none;
+}
+
+header nav a:hover{
+    color:#4fa3ff;
+}
+
+.conta-btn{
+    background:#4fa3ff;
+    padding:8px 18px;
+    border-radius:8px;
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.home{
+    padding-top:120px;
+    text-align:center;
+}
+
+.home p{
+    font-size:22px;
+    width:70%;
+    margin:auto;
+}
+
+/* CATEGORIAS */
+.categorias{
+    padding-top:120px;
+    text-align:center;
+}
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    background:#2b2b2b;
+    padding:20px;
+    width:300px;
+    border-radius:12px;
+    text-align:left;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card a{
+    text-decoration:none;
+    color:white;
+}
+    </style>
+    
+</head>
+
+
+
+<body>
+
+<header>
+    <h2>USO RESPONSÁVEL</h2>
+    <nav>
+        <a href="Inicio.html">Início</a>
+        <a href="categorias.html">Categorias</a>
+        <a href="noticias.html">Notícias</a>
+        <a class="conta-btn" href="login.html">Conta</a>
+    </nav>
+</header>
+
+<div class="categorias">
+    <h1>CATEGORIAS</h1>
+
+    <div class="card-container">
+
+        <a href="Internet.html">
+            <div class="card">
+                <h2>Internet</h2>
+                <img src="Imagens/internet.png">
+                <p>Rede global que conecta milhões de computadores ao redor do mundo.</p>
+            </div>
+        </a>
+
+        <a href="Games.html">
+            <div class="card">
+                <h2>Vídeo Games</h2>
+                <img src="Imagens/games.png">
+                <p>Jogos eletrônicos que permitem interação online entre jogadores.</p>
+            </div>
+        </a>
+
+        <a href="Redesocial.html">
+            <div class="card">
+                <h2>Redes Sociais</h2>
+                <img src="Imagens/app.png">
+                <p>Plataformas digitais que permitem interação entre pessoas.</p>
+            </div>
+        </a>
+
+    </div>
+</div>
+
+</body>
+</html>
